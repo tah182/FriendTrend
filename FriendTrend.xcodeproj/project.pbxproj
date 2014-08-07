@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		825A67A319934BB60049DE21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 825A67A219934BB60049DE21 /* Foundation.framework */; };
+		825A67A519934BB60049DE21 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 825A67A419934BB60049DE21 /* CoreGraphics.framework */; };
+		825A67A719934BB60049DE21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 825A67A619934BB60049DE21 /* UIKit.framework */; };
+		825A67AD19934BB60049DE21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 825A67AB19934BB60049DE21 /* InfoPlist.strings */; };
+		825A67AF19934BB60049DE21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 825A67AE19934BB60049DE21 /* main.m */; };
+		825A67B319934BB60049DE21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 825A67B219934BB60049DE21 /* AppDelegate.m */; };
+		825A67B619934BB60049DE21 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 825A67B419934BB60049DE21 /* Main_iPhone.storyboard */; };
+		825A67B919934BB60049DE21 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 825A67B719934BB60049DE21 /* Main_iPad.storyboard */; };
+		825A67BC19934BB60049DE21 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 825A67BB19934BB60049DE21 /* FirstViewController.m */; };
+		825A67BF19934BB60049DE21 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 825A67BE19934BB60049DE21 /* SecondViewController.m */; };
+		825A67C119934BB60049DE21 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 825A67C019934BB60049DE21 /* Images.xcassets */; };
+		825A67C819934BB60049DE21 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 825A67C719934BB60049DE21 /* XCTest.framework */; };
+		825A67C919934BB60049DE21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 825A67A219934BB60049DE21 /* Foundation.framework */; };
+		825A67CA19934BB60049DE21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 825A67A619934BB60049DE21 /* UIKit.framework */; };
+		825A67D219934BB60049DE21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 825A67D019934BB60049DE21 /* InfoPlist.strings */; };
+		825A67D419934BB60049DE21 /* FriendTrendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 825A67D319934BB60049DE21 /* FriendTrendTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		825A67CB19934BB60049DE21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 825A679719934BB60049DE21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 825A679E19934BB60049DE21;
+			remoteInfo = FriendTrend;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		825A679F19934BB60049DE21 /* FriendTrend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendTrend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		825A67A219934BB60049DE21 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		825A67A419934BB60049DE21 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		825A67A619934BB60049DE21 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		825A67AA19934BB60049DE21 /* FriendTrend-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FriendTrend-Info.plist"; sourceTree = "<group>"; };
+		825A67AC19934BB60049DE21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		825A67AE19934BB60049DE21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		825A67B019934BB60049DE21 /* FriendTrend-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FriendTrend-Prefix.pch"; sourceTree = "<group>"; };
+		825A67B119934BB60049DE21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		825A67B219934BB60049DE21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		825A67B519934BB60049DE21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		825A67B819934BB60049DE21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		825A67BA19934BB60049DE21 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		825A67BB19934BB60049DE21 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		825A67BD19934BB60049DE21 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		825A67BE19934BB60049DE21 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		825A67C019934BB60049DE21 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		825A67C619934BB60049DE21 /* FriendTrendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendTrendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		825A67C719934BB60049DE21 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		825A67CF19934BB60049DE21 /* FriendTrendTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FriendTrendTests-Info.plist"; sourceTree = "<group>"; };
+		825A67D119934BB60049DE21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		825A67D319934BB60049DE21 /* FriendTrendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendTrendTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		825A679C19934BB60049DE21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				825A67A519934BB60049DE21 /* CoreGraphics.framework in Frameworks */,
+				825A67A719934BB60049DE21 /* UIKit.framework in Frameworks */,
+				825A67A319934BB60049DE21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		825A67C319934BB60049DE21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				825A67C819934BB60049DE21 /* XCTest.framework in Frameworks */,
+				825A67CA19934BB60049DE21 /* UIKit.framework in Frameworks */,
+				825A67C919934BB60049DE21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		825A679619934BB60049DE21 = {
+			isa = PBXGroup;
+			children = (
+				825A67A819934BB60049DE21 /* FriendTrend */,
+				825A67CD19934BB60049DE21 /* FriendTrendTests */,
+				825A67A119934BB60049DE21 /* Frameworks */,
+				825A67A019934BB60049DE21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		825A67A019934BB60049DE21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				825A679F19934BB60049DE21 /* FriendTrend.app */,
+				825A67C619934BB60049DE21 /* FriendTrendTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		825A67A119934BB60049DE21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				825A67A219934BB60049DE21 /* Foundation.framework */,
+				825A67A419934BB60049DE21 /* CoreGraphics.framework */,
+				825A67A619934BB60049DE21 /* UIKit.framework */,
+				825A67C719934BB60049DE21 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		825A67A819934BB60049DE21 /* FriendTrend */ = {
+			isa = PBXGroup;
+			children = (
+				825A67B119934BB60049DE21 /* AppDelegate.h */,
+				825A67B219934BB60049DE21 /* AppDelegate.m */,
+				825A67B419934BB60049DE21 /* Main_iPhone.storyboard */,
+				825A67B719934BB60049DE21 /* Main_iPad.storyboard */,
+				825A67BA19934BB60049DE21 /* FirstViewController.h */,
+				825A67BB19934BB60049DE21 /* FirstViewController.m */,
+				825A67BD19934BB60049DE21 /* SecondViewController.h */,
+				825A67BE19934BB60049DE21 /* SecondViewController.m */,
+				825A67C019934BB60049DE21 /* Images.xcassets */,
+				825A67A919934BB60049DE21 /* Supporting Files */,
+			);
+			path = FriendTrend;
+			sourceTree = "<group>";
+		};
+		825A67A919934BB60049DE21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				825A67AA19934BB60049DE21 /* FriendTrend-Info.plist */,
+				825A67AB19934BB60049DE21 /* InfoPlist.strings */,
+				825A67AE19934BB60049DE21 /* main.m */,
+				825A67B019934BB60049DE21 /* FriendTrend-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		825A67CD19934BB60049DE21 /* FriendTrendTests */ = {
+			isa = PBXGroup;
+			children = (
+				825A67D319934BB60049DE21 /* FriendTrendTests.m */,
+				825A67CE19934BB60049DE21 /* Supporting Files */,
+			);
+			path = FriendTrendTests;
+			sourceTree = "<group>";
+		};
+		825A67CE19934BB60049DE21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				825A67CF19934BB60049DE21 /* FriendTrendTests-Info.plist */,
+				825A67D019934BB60049DE21 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		825A679E19934BB60049DE21 /* FriendTrend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 825A67D719934BB60049DE21 /* Build configuration list for PBXNativeTarget "FriendTrend" */;
+			buildPhases = (
+				825A679B19934BB60049DE21 /* Sources */,
+				825A679C19934BB60049DE21 /* Frameworks */,
+				825A679D19934BB60049DE21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FriendTrend;
+			productName = FriendTrend;
+			productReference = 825A679F19934BB60049DE21 /* FriendTrend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		825A67C519934BB60049DE21 /* FriendTrendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 825A67DA19934BB60049DE21 /* Build configuration list for PBXNativeTarget "FriendTrendTests" */;
+			buildPhases = (
+				825A67C219934BB60049DE21 /* Sources */,
+				825A67C319934BB60049DE21 /* Frameworks */,
+				825A67C419934BB60049DE21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				825A67CC19934BB60049DE21 /* PBXTargetDependency */,
+			);
+			name = FriendTrendTests;
+			productName = FriendTrendTests;
+			productReference = 825A67C619934BB60049DE21 /* FriendTrendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		825A679719934BB60049DE21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Mad Hat Productions";
+				TargetAttributes = {
+					825A67C519934BB60049DE21 = {
+						TestTargetID = 825A679E19934BB60049DE21;
+					};
+				};
+			};
+			buildConfigurationList = 825A679A19934BB60049DE21 /* Build configuration list for PBXProject "FriendTrend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 825A679619934BB60049DE21;
+			productRefGroup = 825A67A019934BB60049DE21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				825A679E19934BB60049DE21 /* FriendTrend */,
+				825A67C519934BB60049DE21 /* FriendTrendTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		825A679D19934BB60049DE21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				825A67B919934BB60049DE21 /* Main_iPad.storyboard in Resources */,
+				825A67C119934BB60049DE21 /* Images.xcassets in Resources */,
+				825A67B619934BB60049DE21 /* Main_iPhone.storyboard in Resources */,
+				825A67AD19934BB60049DE21 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		825A67C419934BB60049DE21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				825A67D219934BB60049DE21 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		825A679B19934BB60049DE21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				825A67BF19934BB60049DE21 /* SecondViewController.m in Sources */,
+				825A67B319934BB60049DE21 /* AppDelegate.m in Sources */,
+				825A67BC19934BB60049DE21 /* FirstViewController.m in Sources */,
+				825A67AF19934BB60049DE21 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		825A67C219934BB60049DE21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				825A67D419934BB60049DE21 /* FriendTrendTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		825A67CC19934BB60049DE21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 825A679E19934BB60049DE21 /* FriendTrend */;
+			targetProxy = 825A67CB19934BB60049DE21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		825A67AB19934BB60049DE21 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				825A67AC19934BB60049DE21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		825A67B419934BB60049DE21 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				825A67B519934BB60049DE21 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		825A67B719934BB60049DE21 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				825A67B819934BB60049DE21 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		825A67D019934BB60049DE21 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				825A67D119934BB60049DE21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		825A67D519934BB60049DE21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		825A67D619934BB60049DE21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		825A67D819934BB60049DE21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FriendTrend/FriendTrend-Prefix.pch";
+				INFOPLIST_FILE = "FriendTrend/FriendTrend-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		825A67D919934BB60049DE21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FriendTrend/FriendTrend-Prefix.pch";
+				INFOPLIST_FILE = "FriendTrend/FriendTrend-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		825A67DB19934BB60049DE21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FriendTrend.app/FriendTrend";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FriendTrend/FriendTrend-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FriendTrendTests/FriendTrendTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		825A67DC19934BB60049DE21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FriendTrend.app/FriendTrend";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FriendTrend/FriendTrend-Prefix.pch";
+				INFOPLIST_FILE = "FriendTrendTests/FriendTrendTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		825A679A19934BB60049DE21 /* Build configuration list for PBXProject "FriendTrend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				825A67D519934BB60049DE21 /* Debug */,
+				825A67D619934BB60049DE21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		825A67D719934BB60049DE21 /* Build configuration list for PBXNativeTarget "FriendTrend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				825A67D819934BB60049DE21 /* Debug */,
+				825A67D919934BB60049DE21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		825A67DA19934BB60049DE21 /* Build configuration list for PBXNativeTarget "FriendTrendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				825A67DB19934BB60049DE21 /* Debug */,
+				825A67DC19934BB60049DE21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 825A679719934BB60049DE21 /* Project object */;
+}
